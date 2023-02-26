@@ -1,11 +1,11 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-
+import { Icon } from 'astro-icon'
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
 ---
 
-<BaseLayout title="About | Jeanine White" description="About Jeanine White Lorem Ipsum">
+<BaseLayout title="About | Ameer Hamza" description="About Ameer Hamza Lorem Ipsum">
 	<div class="stack gap-20">
 		<main class="wrapper about">
 			<Hero
@@ -15,8 +15,8 @@ import Hero from '../components/Hero.astro';
 				<img
 					width="1553"
 					height="873"
-					src="/assets/at-work.jpg"
-					alt="Jeanine White at work with a colleague"
+					src="/assets/ameer-at-work.jpeg"
+					alt="Ameer Hamza at work with a colleague"
 				/>
 			</Hero>
 
@@ -24,36 +24,173 @@ import Hero from '../components/Hero.astro';
 				<h2 class="section-title">Background</h2>
 				<div class="content">
 					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl condimentum
-						id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu odio ut sem nulla
-						pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare.
-					</p>
+						Enter Ameer, a master of the digital realm whose unwavering passion for technology has led him on a path of innovation and discovery. Hailing from the city of lights, Karachi in Pakistan, Ameer's journey has taken him to the enigmatic city of Dubai where he now plies his trade in the mysterious world of web development.
+					</p>	
+					<br />
 					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
+						With a reputation as a skilled and creative software engineer, Ameer has spent years honing his craft, working with both private and government entities to provide innovative solutions to complex problems. His talents are shrouded in mystery, yet his results speak for themselves.
 					</p>
+					<br />
 					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
+						The world of technology is a place of endless possibilities, and Ameer is a master of its secrets. He continues to push the boundaries of what is possible, always searching for new ways to harness the power of the digital universe. For those lucky enough to work with him, Ameer is an enigma, a cool and mysterious force of nature whose talents are unmatched in the world of software engineering.
 					</p>
 				</div>
 			</section>
 			<section>
+				<h2 class="section-title">Experience</h2>
+				<div class="content">
+					<div class="d-flex justify-space-between">
+						<p><b>Senior Software Engineer</b></p>
+						<small>November 2020 - Present</small>
+					</div>
+					<p>Digital Dubai Authority</p>
+					<br />
+					<ul>
+						<li>
+							Developed web application "Invest in Dubai" using Vue.js, Node.js, SASS, Vuetify and Nuxt.js a portal where user can create business licenses and reserve trade-names.
+						</li>
+						<li>
+							Developed web application "Voice of Customer" where user can lodge complaints against govt institutions, using Vue.js (Nuxt.js), Node.js, SASS, Vuetify.
+						</li>
+						<li>
+							Revamped web application "UAE PASS", using React.js, Node.js, SASS, and Next.js
+						</li>
+						<li>
+							Received appreciation letter from Deputy Ruler, Sheikh Maktoum bin Mohammed bin Rashid Al Maktoum, for my dedication and commitment to complete the Invest In Dubai platform.
+						</li>
+					</ul>
+				</div>
+
+				<div class="content">
+					<div class="d-flex justify-space-between">
+						<p><b>Senior Software Engineer</b></p>
+						<small>September 2019 - October 2020</small>
+					</div>
+					<p>Avanza Solutions</p>
+					<br />
+					<ul>
+						<li>
+							Developed & maintained national and international banking subscription web apps using ASP.NET webforms, jQuery & JavaScript.
+						</li>
+						<li>
+							Developed Stored Procedures, Triggers, and Views in SQL Server 2017.
+						</li>
+						<li>
+							Created richly formatted, dynamic reports using SAP Crystal Reports.
+						</li>
+						<li>
+							Developed modifiable Windows Service for database archiving.
+						</li>
+						<li>
+							Converted reusable codes to NuGet packages & distributed it amongst different development teams.
+						</li>
+						<li>
+							Automated business use cases using Robotic Process Automation Tool.
+						</li>
+					</ul>
+				</div>
+
+				<div class="content">
+					<div class="d-flex justify-space-between">
+						<p><b>Software Engineer</b></p>
+						<small>June 2019 - December 2019</small>
+					</div>
+					<p>Aucten Ltd. UK</p>
+					<br />
+					<ul>
+						<li>
+							Development of mobile application using react native for both client and server stakeholders.
+						</li>
+						<li>
+							Development of web application using react JS for admin view.
+						</li>
+						<li>
+							Integration of firebase services, such as firebase realtime-database, firebase storage, firebase auth, firebase dynamic links.
+						</li>
+						<li>
+							Integration of Google Maps API and geolocation services using google-android-services.
+						</li>
+					</ul>
+				</div>
+
+
+				<div class="content">
+					<div class="d-flex justify-space-between">
+						<p><b>Mobile Developer</b></p>
+						<small>June 2018 - August 2018</small>
+					</div>
+					<p>CSquare Consulting</p>
+					<br />
+					<ul>
+						<li>
+							Development of a cross platform mobile application using react-native to track employees of "C Square" to calculate their traveling expenses.
+						</li>
+						<li>
+							Converted the manual system of awarding fixed travel expense benefit, to dynamic travel expense benefit according to distance traveled in kilometers by employees.
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section>
 				<h2 class="section-title">Education</h2>
 				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
+					<div class="d-flex justify-space-between">
+						<p><b>FAST National University</b></p>
+						<small>August 2015 - May 2019</small>
+					</div>
+					<p>Bachelor Of Science In Computer Science</p>
 				</div>
 			</section>
 			<section>
 				<h2 class="section-title">Skills</h2>
 				<div class="content">
-					<p>officia unde omnis</p>
-				</div>
+					<p>Languages:</p>
+					<hr />
+					Javascript, Typescript, C#, Python
+					<br />
+					<br />
+
+
+					<p>Web Development:</p>
+					<hr />
+					Vue.js (Nuxt) , React.js, React-Native, HTML/XML, CSS, SASS, Bootstrap, Vuetify
+					<br />
+					<br />
+
+					<p>Server-End Scripting:</p>
+					<hr />
+					Node.js + Express.js
+					<br />
+					<br />
+
+					<p>Database:</p>
+					<hr />
+					SQL Server, Firebase, MongoDB
+					<br />
+					<br />
+					
+					<p>Cloud Services:</p>
+					<hr />
+					Amazon EC2 & S3
+					<br />
+					<br />
+
+					
+					<p>Version Control:</p>
+					<hr />
+					Git & SVN
+					<br />
+					<br />
+
+					
+				
+					<p>Web Services:</p>
+					<hr />
+					REST, SOAP
+					<br />
+					
+					</div>
 			</section>
 		</main>
 

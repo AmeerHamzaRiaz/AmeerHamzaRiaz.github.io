@@ -202,6 +202,23 @@ h5 {
 	flex-direction: column;
 }
 
+
+.d-flex {
+	display: flex;
+}
+
+.justify-space-between {
+	justify-content: space-between;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.text-center {
+	text-align: center;
+}
+
 .gap-2 {
 	gap: 0.5rem;
 }
